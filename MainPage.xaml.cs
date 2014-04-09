@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -38,7 +38,10 @@ namespace MineSweeper
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Game.xaml?size=" + rowBox.Text, UriKind.Relative));
+            if(int.Parse(rowBox.Text)<3||int.Parse(rowBox.Text)>16)
+                MessageBox.Show("Enter gridsize between 3 and 16");
+            else
+                NavigationService.Navigate(new Uri("/Game.xaml?size=" + rowBox.Text, UriKind.Relative));
         }
     }
 }
