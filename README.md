@@ -2,7 +2,7 @@ Minesweeper
 ===========
 -This project is an implementation of popular minesweeper game provided by Microsoft.
 
--In this three activities have been made-
+-In this four activities have been made-
  1)Mainpage
  2)Game
  3)Rules
