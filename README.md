@@ -3,14 +3,14 @@ Minesweeper
 -This project is an implementation of popular minesweeper game provided by Microsoft.
 
 -In this four activities have been made-
- 1)Mainpage
- 2)Game
- 3)Rules
- 4)About
+ 1)Mainpage\n
+ 2)Game\n
+ 3)Rules\n
+ 4)About\n
  
 -Every activity has two associated files, .xaml and .cs.
 
--.xaml is used for as presentation logic and .xs is used as business logic.
+-.xaml is used as presentation logic and .cs is used as business logic.
 
 -Game's working can be explained as following-
 
