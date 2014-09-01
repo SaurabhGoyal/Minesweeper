@@ -3,10 +3,10 @@ Minesweeper
 -This project is an implementation of popular minesweeper game provided by Microsoft.
 
 -In this four activities have been made-
- 1)Mainpage\n
- 2)Game\n
- 3)Rules\n
- 4)About\n
+ (1)Mainpage
+ (2)Game
+ (3)Rules
+ (4)About
  
 -Every activity has two associated files, .xaml and .cs.
 
